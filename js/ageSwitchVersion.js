@@ -5,7 +5,7 @@ for an age that is an integer between 0 and 20.
 
 const age = 12;
 switch (true) {
-    case (age > 18 && age >= 20):
+    case (age > 18 && age <= 20):
         console.log("young adult");
         break;
     case (age > 12):
